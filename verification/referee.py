@@ -38,7 +38,7 @@ api.add_listener(
     CheckiOReferee(
         tests=TESTS,
         function_name={
-            "python": "soma",
+            "python": "encontra_palavra",
             "js": "countConsecutiveSummers"
         },
         cover_code={
