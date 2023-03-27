@@ -1,19 +1,14 @@
-def soma(a,b):
+def encontra_palavra(lista, palavra):
     # escreva aqui seu código
     return None
 
 
 print("Example:")
-print(soma(3,2))
+print(encontra_palavra(['eu', 'amo', 'programar'], 'amo'))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
-# testa a função com números positivos como parâmetros
-assert soma(2, 3) == 5 
-    
-# testa a função com um número negativo como parâmetro
-assert soma(-1, 5) == 4
-    
-# testa a função com zero como parâmetro
-assert soma(0, 0) == 0
+assert encontra_palavra(['python', 'java', 'ruby', 'c++'], 'python') == True 
+assert encontra_palavra(['gato', 'cachorro', 'pássaro', 'leão'], 'elefante') == False 
+assert encontra_palavra(['azul', 'vermelho', 'verde', 'amarelo'], 'rosa') == False
     
 print("Seu código passou pelos testes, clique em Check para avançar!")
